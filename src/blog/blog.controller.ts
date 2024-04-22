@@ -92,7 +92,7 @@ export class BlogController {
       where: { id },
       data: {
         downvote: {
-          decrement: 1,
+          increment: 1,
         },
       },
     });
